@@ -1,8 +1,6 @@
 # GB-RT-1311
 
-library(annotate-genes)
-library(tidyverse)
-options(dplyr.summarise.inform = FALSE)
+# source annotate-genes.R to load the functions used below.
 
 ## Oligo gene list
 oligo.list <- read.table("~/Desktop/Oligo_DEGs_5Xfib_v_5X_withFullGeneName.csv", 
