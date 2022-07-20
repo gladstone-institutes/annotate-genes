@@ -1,5 +1,5 @@
 # annotate-genes
-Filter GO annotations for a list of genes using mygene.info via R
+Retreive and filter GO annotations for a list of genes using mygene.info via R
 
 ## Installation
 The `annotate-genes.R` script contains a set of functions that you can source in order to make them available in your R environment.
