@@ -7,7 +7,7 @@ The `annotate-genes.R` script contains a set of functions that you can source in
 _Note: the dependency on the [mygene](https://bioconductor.org/packages/release/bioc/html/mygene.html) package proved to be tricky on a M1X Mac (see notes in script)._
 
 ## Usage
-Once you have successfully sourced the function-containting script, `annotate-genes.R`, then you can simply pass a list of genes to the `makeAnnotationDF` function to generate an R-friendly data.frame with the GO annotations you want. Query genes can be provided as symbols, NCBI Gene IDs or Ensembl IDs.
+Once you have successfully sourced the function-containting script, `annotate-genes.R`, then you can simply pass a list of genes to the `makeAnnotationDF` function to generate an R-friendly data.frame with the GO annotations you want. Query genes can be provided as symbols, NCBI Gene IDs or Ensembl IDs. Refer to the `annotate-genes.R` script for all parameter options per function.
 
 For example:
 ```
@@ -41,6 +41,4 @@ And the output include the query gene, GO term name, GO ID, [evidences](https://
 16 tbx5           RNA polymerase II cis-regulatory region sequence-specific DNA binding GO:0000978       IDA         enables
 17 tbx5 RNA polymerase II transcription regulatory region sequence-specific DNA binding GO:0000977       IDA         enables
 ```
-
-See the parameter options per function in the `annotate-genes.R` script.
 
