@@ -39,6 +39,8 @@ annotationDF2Matrix <- function(df){
 #' @param evidence = evidence filter, either: "exp" (default) for experimental
 #' codes only, "noiea" for everything except IEA, or "all" for everything
 #' @param pattern = optional pattern to apply grep on GO term names
+#' @details The output includes a column of evidences using the codes from GO:
+#' http://geneontology.org/docs/guide-go-evidence-codes/
 #' @return data.frame
 #' @examples 
 #' my.gene.list <- c("sox9", "tbx5")
